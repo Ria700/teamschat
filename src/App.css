@@ -4,14 +4,30 @@
       Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     letter-spacing: 0.5px;
   }
-  
-  /* .nav-link img{
-    margin: 10px;
-  } */
 
   .nav{
     background-color: #EBEBEB !important;
     height: 100%;
+  }
+
+  .form-inline{
+    background-color: #6264A7;
+    padding: 10px;
+  }
+
+  .form-control{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #E0E0ED;
+    color: #6264A7;
+  }
+
+  .mr-sm-2{
+    padding: 7px;
+
   }
 
   .ce-chat-list {
@@ -43,7 +59,7 @@
   
   .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #6264A7 !important;
     position: relative;
     bottom: 1px;
   }
@@ -92,13 +108,13 @@
   }
   
   .chat-title {
-    color: #7554a0;
+    color: #6264A7;
     font-weight: 800;
     font-size: 24px;
   }
   
   .chat-subtitle {
-    color: #7554a0;
+    color: #6264A7;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -226,13 +242,18 @@
   .wrapper {
     height: 100vh;
       width: 100%;
-    background: rgb(117,84,160);
+    background: #3b2a50;
     background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+  .spacer{
+    background-color:#6264A7;
+    height: 52px;
+  }
+
   .input {
     color: #333;
     font-size: 1.2rem;
