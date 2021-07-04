@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { SendOutlined, PictureOutlined } from '@ant-design/icons';
 import { sendMessage, isTyping } from 'react-chat-engine';
+import VC from './Video.svg';
 
 const MessageForm = (props) => {
   const [value, setValue] = useState('');
@@ -37,6 +38,7 @@ const MessageForm = (props) => {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
+      <a style={{marginTop: "5px", paddingTop: "20px"}} href="http://localhost:3000/" ><img src={VC} width="18px"></img></a>
       <label htmlFor="upload-button">
         <span className="image-button">
           <PictureOutlined className="picture-icon" />
