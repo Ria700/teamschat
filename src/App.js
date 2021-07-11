@@ -1,7 +1,9 @@
+// import chatengine.io
 import { ChatEngine } from 'react-chat-engine';
 
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
+// custom styles
 import './App.css';
 
 import Activity from './images/Activity.svg';
@@ -17,7 +19,7 @@ const App = () => {
 
     <LeftNav />
     <div style={{ flexGrow: 1 }}>
-    <SearchIcon />
+      <SearchIcon />
       <ChatEngine
         height="90vh"
         projectID={projectID}
@@ -38,13 +40,13 @@ const LeftNav = () => (
       <li className="spacer">
       </li>
       <li>
-        <a href="#"><img style={{margin: "10px"}} src={Activity} width="25px"></img></a>
+        <a href="#"><img style={{ margin: "10px" }} src={Activity} width="25px"></img></a>
       </li>
       <li>
-        <a href="#"><img style={{margin: "3px"}} src={ChatActive} width="32px"></img></a>
+        <a href="#"><img style={{ margin: "3px" }} src={ChatActive} width="32px"></img></a>
       </li>
       <li>
-        <a href="#"><img style={{margin: "9px"}} src={Calendar} width="30px"></img></a>
+        <a href="#"><img style={{ margin: "9px" }} src={Calendar} width="30px"></img></a>
       </li>
     </ul>
   </nav>
