@@ -38,7 +38,7 @@ const MessageForm = (props) => {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
-      <a target="_blank" rel="noreferrer" style={{ marginTop: "5px", paddingTop: "20px" }} href="https://clonemsteams.herokuapp.com/"><img src={VC} width="18px"></img></a>
+      <a target="_blank" rel="noreferrer" className="video" href="https://clonemsteams.herokuapp.com/"><img src={VC} width="18px"></img></a>
       <label htmlFor="upload-button">
         <span className="image-button">
           <PictureOutlined className="picture-icon" />
