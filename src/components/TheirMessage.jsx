@@ -1,7 +1,10 @@
+// Their message
 const TheirMessage = ({ lastMessage, message }) => {
+  // to show last sent message in My Chats
   const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
 
   return (
+    // attachment 
     <div className="message-row">
       {isFirstMessageByUser && (
         <div
@@ -18,6 +21,7 @@ const TheirMessage = ({ lastMessage, message }) => {
             style={{ marginLeft: isFirstMessageByUser ? '4px' : '48px' }}
           />
         )
+    // text message
         : (
           <div className="message" style={{ float: 'left', backgroundColor: '#CABCDC', marginLeft: isFirstMessageByUser ? '4px' : '48px' }}>
             {message.text}
