@@ -270,7 +270,14 @@
     box-sizing: border-box;
     font-size: 62,5%;
   }
-  
+
+  .spacer{
+    background-color:#6264A7;
+    height: 52px;
+  }
+  /* Styles end here */
+
+  /* Login form */
   .wrapper {
     height: 100vh;
       width: 100%;
@@ -280,16 +287,11 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .spacer{
-    background-color:#6264A7;
-    height: 52px;
-  }
 
   .input {
     color: #333;
     font-size: 1.2rem;
-      margin: 0 auto;
+    margin: 0 auto;
     padding: 1.5rem 2rem;
     border-radius: 0.2rem;
     background-color: rgb(255, 255, 255);
@@ -354,4 +356,4 @@
     opacity: 1;
     right: 0;
   }
-  /* Styles end here */
+  /* Login formends here */
